@@ -231,7 +231,7 @@ public class ResourcesManager {
             if (config.themeConfig != null) {
                 attachThemeAssets(assets, config.themeConfig);
                 attachCommonAssets(assets, config.themeConfig);
-                iconsAttached = attachIconAssets(assets, config.themeConfig);
+                attachIconAssets(assets, config.themeConfig);
             }
         }
 
